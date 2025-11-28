@@ -32,6 +32,7 @@ import (
 	"github.com/fatedier/frp/pkg/util/version"
 )
 
+// new comment
 type GeneralResponse struct {
 	Code int
 	Msg  string

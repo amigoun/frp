@@ -32,11 +32,11 @@ import (
 	"github.com/fatedier/frp/pkg/util/version"
 )
 
+// new comment #3
 type GeneralResponse struct {
 	Code int
 	Msg  string
 }
-
 
 func (svr *Service) registerRouteHandlers(helper *httppkg.RouterRegisterHelper) {
 	helper.Router.HandleFunc("/healthz", svr.healthz)

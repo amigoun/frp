@@ -13,7 +13,7 @@
 // limitations under the License.
 
 package server
-// get the comment back
+
 import (
 	"cmp"
 	"encoding/json"
